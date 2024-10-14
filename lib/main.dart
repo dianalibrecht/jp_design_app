@@ -9,12 +9,22 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+          body: Stack(
+        fit: StackFit.expand,
+        children: [
+          Image.asset("assets/backgrounds/bg_startscreen.png",
+              fit: BoxFit.cover),
+          Positioned(
+              top: 200,
+              left: 40,
+              child: Transform.scale(
+                  scale: 1.4,
+                  child: Image.asset("assets/grafics/chick_cupcakes.png"))),
+          Image.asset("assets/details/snack.png"),
+        ],
+      )),
     );
   }
 }
