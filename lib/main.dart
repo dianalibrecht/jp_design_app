@@ -47,7 +47,7 @@ class MainApp extends StatelessWidget {
                       children: [
                         const SizedBox(height: 32),
                         const Text(
-                          "Feeling Snackish today?",
+                          "Feeling Snackish Today?",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontWeight: FontWeight.w900,
@@ -56,7 +56,7 @@ class MainApp extends StatelessWidget {
                         ),
                         const SizedBox(height: 16),
                         const Text(
-                          "Explore Angi`s most popular snack selection \n and get instantly happy",
+                          "Explore Angi`s most popular snack selection \n and get instantly happy.",
                           textAlign: TextAlign.center,
                           style: TextStyle(color: Colors.white),
                         ),
@@ -66,10 +66,10 @@ class MainApp extends StatelessWidget {
                           child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(16),
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                     colors: [
-                                      Color.fromARGB(149, 217, 172, 100),
-                                      Color.fromARGB(233, 201, 75, 157)
+                                      Color.fromARGB(218, 213, 181, 131),
+                                      Color.fromARGB(255, 255, 90, 225)
                                     ],
                                     begin: Alignment.centerRight,
                                     end: Alignment.centerLeft)),
