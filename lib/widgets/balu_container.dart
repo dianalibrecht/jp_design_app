@@ -61,7 +61,7 @@ class BaluContainer extends StatelessWidget {
                     Expanded(child: SizedBox()),
                     Icon(Icons.favorite_border_rounded,
                         color: Colors.white, size: 12),
-                    Text("200",
+                    Text("189",
                         style: TextStyle(color: Colors.white, fontSize: 12))
                   ],
                 )
