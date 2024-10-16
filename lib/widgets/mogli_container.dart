@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:jp_design_app/screens/cup_details_screen.dart';
 
 class MogliContainer extends StatelessWidget {
   const MogliContainer({
@@ -10,18 +11,8 @@ class MogliContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        showDialog(
-            context: context,
-            builder: (BuildContext context) => AlertDialog(
-                    title: const Text("Choose your Sound"),
-                    content: const Text("Sound \nSound \nSound \nSound"),
-                    actions: <Widget>[
-                      TextButton(
-                          onPressed: () {
-                            Navigator.of(context).pop();
-                          },
-                          child: const Text("Save"))
-                    ]));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => const CupDetailsScreen()));
       },
       child: ClipRRect(
         child: BackdropFilter(
