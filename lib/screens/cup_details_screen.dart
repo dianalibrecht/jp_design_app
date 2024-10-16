@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:jp_design_app/widgets/moglis_cup_details_container.dart';
 
