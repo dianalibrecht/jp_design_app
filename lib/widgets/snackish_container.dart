@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:jp_design_app/widgets/order_now_button.dart';
+import 'package:jp_design_app/features/order_now_button.dart';
 
 class SnackishContainer extends StatelessWidget {
   const SnackishContainer({

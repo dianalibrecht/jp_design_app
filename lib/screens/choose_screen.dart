@@ -5,7 +5,7 @@ import 'package:jp_design_app/widgets/balu_container.dart';
 import 'package:jp_design_app/widgets/henry_container.dart';
 import 'package:jp_design_app/widgets/sara_container.dart';
 import 'package:jp_design_app/widgets/mogli_container.dart';
-import 'package:jp_design_app/widgets/categories_row.dart';
+import 'package:jp_design_app/features/categories_row.dart';
 
 class ChooseScreen extends StatelessWidget {
   const ChooseScreen({super.key});
